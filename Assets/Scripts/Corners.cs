@@ -12,7 +12,7 @@ public class Corners : MonoBehaviour
     // Start is called before the first frame update
     //When i go round the corner the controls end up backwards which means theyre like impossible to use, a possible fix is to just invert the controls but idk how 10/22/21 11:44
     //I tried sticking a - in front of it and adding random stuff on but still doesnt work
-    //trigger enter get horizontyal movement if itsd lesss than 0 go left if its mroe than 0 go right, then just change the publc variable change.Whatever
+    //trigger enter get horizontyal movement if itsd lesss than 0 go left if its mroe than 0 go right, then just change the publc variable change Whatever
     void Start()
     {
         player = GameObject.Find("Player");
